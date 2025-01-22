@@ -12,7 +12,10 @@ function Event() {
                         <div className="row">
                             <div className="col-lg-5">
                                 <div className="ceromony-img">
-                                    <img src="" alt="" />
+                                    <img
+                                        src="https://hellloexpert.com/tf/html/lavelo/img/service/1.jpg"
+                                        alt=""
+                                    />
                                 </div>
                             </div>
                             <div className="col-lg-7">
@@ -69,7 +72,10 @@ function Event() {
                         </div>
                         <div className="col-lg-5">
                             <div className="ceromony-img">
-                                <img src="" alt="" />
+                                <img
+                                    src="https://hellloexpert.com/tf/html/lavelo/img/service/2.jpg"
+                                    alt=""
+                                />
                             </div>
                         </div>
                     </div>
@@ -78,7 +84,10 @@ function Event() {
                     <div className="row">
                         <div className="col-lg-5">
                             <div className="ceromony-img">
-                                <img src="" alt="" />
+                                <img
+                                    src="https://hellloexpert.com/tf/html/lavelo/img/service/3.jpg"
+                                    alt=""
+                                />
                             </div>
                         </div>
                         <div className="col-lg-7">

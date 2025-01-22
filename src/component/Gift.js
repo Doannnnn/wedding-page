@@ -1,4 +1,34 @@
+import React from "react";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+
 function Gift() {
+    const options = {
+        loop: true,
+        margin: 0,
+        nav: false,
+        items: 5,
+        smartSpeed: 1000,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+            0: {
+                items: 3,
+            },
+            480: {
+                items: 2,
+            },
+            760: {
+                items: 4,
+            },
+            1080: {
+                items: 4,
+            },
+        },
+    };
+
     return (
         <div className="gift-area pt--100 pb--30">
             <div className="container">
@@ -13,12 +43,28 @@ function Gift() {
                     </div>
                 </div>
                 <div className="gift-item">
-                    <div className="Gift-carousel owl-carousel">
-                        <img src="img/gift/3.png" alt="clinet" />
-                        <img src="img/gift/2.png" alt="clinet" />
-                        <img src="img/gift/3.png" alt="clinet" />
-                        <img src="img/gift/4.png" alt="clinet" />
-                    </div>
+                    <OwlCarousel className="Gift-carousel" {...options}>
+                        <img
+                            src="https://hellloexpert.com/tf/html/lavelo/img/gift/3.png"
+                            alt="gift"
+                            style={{ width: "50%" }}
+                        />
+                        <img
+                            src="https://hellloexpert.com/tf/html/lavelo/img/gift/2.png"
+                            alt="gift"
+                            style={{ width: "50%" }}
+                        />
+                        <img
+                            src="https://hellloexpert.com/tf/html/lavelo/img/gift/3.png"
+                            alt="gift"
+                            style={{ width: "50%" }}
+                        />
+                        <img
+                            src="https://hellloexpert.com/tf/html/lavelo/img/gift/4.png"
+                            alt="gift"
+                            style={{ width: "50%" }}
+                        />
+                    </OwlCarousel>
                 </div>
             </div>
         </div>

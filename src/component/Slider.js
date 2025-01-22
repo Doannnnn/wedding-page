@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-// import { Navigation, Autoplay } from "swiper/modules";
-// import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/modules";
 import axios from "axios";
 
 function Slider({ setLoading }) {
@@ -13,18 +13,24 @@ function Slider({ setLoading }) {
                 setImages(response.data);
             })
             .catch((error) => {
-                console.log(error);
+                console.error(error);
             });
-    }, []);
+    }, [setLoading]);
 
     return (
         <div className="slider-area slider-style-2 slider-two parallax">
-            <div className="swiper-container">
-                <div className="swiper-wrapper">
-                    {images.map((image, index) => (
+            <Swiper
+                loop={true}
+                speed={4000}
+                autoplay={{ delay: 3000, disableOnInteraction: false }}
+                navigation={true}
+                modules={[Navigation, Autoplay]}
+                className="swiper-container"
+            >
+                {images.map((image, index) => (
+                    <SwiperSlide key={index}>
                         <div
-                            className="single-slider swiper-slide"
-                            key={index}
+                            className="single-slider"
                             style={{
                                 background: `url(${image.url}) no-repeat center/cover`,
                             }}
@@ -39,16 +45,9 @@ function Slider({ setLoading }) {
                                 </div>
                             </div>
                         </div>
-                    ))}
-                </div>
-                {/* Add Arrows */}
-                <div className="swiper-button-next">
-                    <i className="fa fa-angle-right"></i>
-                </div>
-                <div className="swiper-button-prev">
-                    <i className="fa fa-angle-left"></i>
-                </div>
-            </div>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
         </div>
     );
 }

@@ -1,6 +1,11 @@
 function Footer() {
     return (
-        <div className="footer-area">
+        <div
+            className="footer-area"
+            style={{
+                background: `url('https://hellloexpert.com/tf/html/lavelo/img/footer/1.jpg') no-repeat center center / cover`,
+            }}
+        >
             <div className="container">
                 <div className="footer-content">
                     <div className="content-sub">

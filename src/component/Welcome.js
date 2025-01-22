@@ -1,6 +1,13 @@
 function Welcome() {
     return (
-        <div className="welcome-area">
+        <div
+            className="welcome-area"
+            style={{
+                background: `linear-gradient(rgba(0, 0, 0, 0.81), rgba(100, 158, 147, 0.81)), 
+                         transparent url('https://hellloexpert.com/tf/html/lavelo/img/1.jpg') 
+                         no-repeat center center / cover fixed`,
+            }}
+        >
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">

@@ -20,7 +20,10 @@ function Story() {
                                         <div className="image-wrap">
                                             <div className="single-image">
                                                 <div>
-                                                    <img src="" alt="" />
+                                                    <img
+                                                        src="https://hellloexpert.com/tf/html/lavelo/img/story/1.jpg"
+                                                        alt=""
+                                                    />
                                                 </div>
                                             </div>
                                         </div>
@@ -54,7 +57,10 @@ function Story() {
                                         <div className="image-wrap">
                                             <div className="single-image">
                                                 <div>
-                                                    <img src="" alt="" />
+                                                    <img
+                                                        src="https://hellloexpert.com/tf/html/lavelo/img/story/2.jpg"
+                                                        alt=""
+                                                    />
                                                 </div>
                                             </div>
                                         </div>
@@ -88,7 +94,10 @@ function Story() {
                                         <div className="image-wrap">
                                             <div className="single-image">
                                                 <div>
-                                                    <img src="" alt="" />
+                                                    <img
+                                                        src="https://hellloexpert.com/tf/html/lavelo/img/story/3.jpg"
+                                                        alt=""
+                                                    />
                                                 </div>
                                             </div>
                                         </div>
@@ -122,7 +131,10 @@ function Story() {
                                         <div className="image-wrap">
                                             <div className="single-image">
                                                 <div>
-                                                    <img src="" alt="" />
+                                                    <img
+                                                        src="https://hellloexpert.com/tf/html/lavelo/img/story/1.jpg"
+                                                        alt=""
+                                                    />
                                                 </div>
                                             </div>
                                         </div>

@@ -32,7 +32,10 @@ function People() {
                                     <div className="col-lg-4 col-md-6 col-sm-6">
                                         <div className="person-wrap">
                                             <div className="person-img">
-                                                <img src="" alt="" />
+                                                <img
+                                                    src="https://hellloexpert.com/tf/html/lavelo/img/person/1.jpg"
+                                                    alt=""
+                                                />
                                                 <div className="social-list">
                                                     <ul>
                                                         <li>
@@ -62,7 +65,10 @@ function People() {
                                     <div className="col-lg-4 col-md-6 col-sm-6">
                                         <div className="person-wrap">
                                             <div className="person-img">
-                                                <img src="" alt="" />
+                                                <img
+                                                    src="https://hellloexpert.com/tf/html/lavelo/img/person/9.jpg"
+                                                    alt=""
+                                                />
                                                 <div className="social-list">
                                                     <ul>
                                                         <li>
@@ -92,7 +98,10 @@ function People() {
                                     <div className="col-lg-4 col-md-6 col-sm-6">
                                         <div className="person-wrap">
                                             <div className="person-img">
-                                                <img src="" alt="" />
+                                                <img
+                                                    src="https://hellloexpert.com/tf/html/lavelo/img/person/10.jpg"
+                                                    alt=""
+                                                />
                                                 <div className="social-list">
                                                     <ul>
                                                         <li>
@@ -122,7 +131,10 @@ function People() {
                                     <div className="col-lg-4 col-md-6 col-sm-6">
                                         <div className="person-wrap">
                                             <div className="person-img">
-                                                <img src="" alt="" />
+                                                <img
+                                                    src="https://hellloexpert.com/tf/html/lavelo/img/person/5.jpg"
+                                                    alt=""
+                                                />
                                                 <div className="social-list">
                                                     <ul>
                                                         <li>
@@ -152,7 +164,10 @@ function People() {
                                     <div className="col-lg-4 col-md-6 col-sm-6">
                                         <div className="person-wrap">
                                             <div className="person-img">
-                                                <img src="" alt="" />
+                                                <img
+                                                    src="https://hellloexpert.com/tf/html/lavelo/img/person/6.jpg"
+                                                    alt=""
+                                                />
                                                 <div className="social-list">
                                                     <ul>
                                                         <li>
@@ -182,7 +197,10 @@ function People() {
                                     <div className="col-lg-4 col-md-6 col-sm-6">
                                         <div className="person-wrap">
                                             <div className="person-img">
-                                                <img src="" alt="" />
+                                                <img
+                                                    src="https://hellloexpert.com/tf/html/lavelo/img/person/7.jpg"
+                                                    alt=""
+                                                />
                                                 <div className="social-list">
                                                     <ul>
                                                         <li>
@@ -218,7 +236,10 @@ function People() {
                                     <div className="col-lg-4 col-md-6">
                                         <div className="person-wrap">
                                             <div className="person-img">
-                                                <img src="" alt="" />
+                                                <img
+                                                    src="https://hellloexpert.com/tf/html/lavelo/img/person/5.jpg"
+                                                    alt=""
+                                                />
                                                 <div className="social-list">
                                                     <ul>
                                                         <li>
@@ -248,7 +269,10 @@ function People() {
                                     <div className="col-lg-4 col-md-6">
                                         <div className="person-wrap">
                                             <div className="person-img">
-                                                <img src="" alt="" />
+                                                <img
+                                                    src="https://hellloexpert.com/tf/html/lavelo/img/person/6.jpg"
+                                                    alt=""
+                                                />
                                                 <div className="social-list">
                                                     <ul>
                                                         <li>
@@ -278,7 +302,10 @@ function People() {
                                     <div className="col-lg-4 col-md-6">
                                         <div className="person-wrap">
                                             <div className="person-img">
-                                                <img src="" alt="" />
+                                                <img
+                                                    src="https://hellloexpert.com/tf/html/lavelo/img/person/7.jpg"
+                                                    alt=""
+                                                />
                                                 <div className="social-list">
                                                     <ul>
                                                         <li>
@@ -308,7 +335,10 @@ function People() {
                                     <div className="col-lg-4 col-md-6">
                                         <div className="person-wrap">
                                             <div className="person-img">
-                                                <img src="" alt="" />
+                                                <img
+                                                    src="https://hellloexpert.com/tf/html/lavelo/img/person/1.jpg"
+                                                    alt=""
+                                                />
                                                 <div className="social-list">
                                                     <ul>
                                                         <li>
@@ -338,7 +368,10 @@ function People() {
                                     <div className="col-lg-4 col-md-6">
                                         <div className="person-wrap">
                                             <div className="person-img">
-                                                <img src="" alt="" />
+                                                <img
+                                                    src="https://hellloexpert.com/tf/html/lavelo/img/person/9.jpg"
+                                                    alt=""
+                                                />
                                                 <div className="social-list">
                                                     <ul>
                                                         <li>
@@ -368,7 +401,10 @@ function People() {
                                     <div className="col-lg-4 col-md-6">
                                         <div className="person-wrap">
                                             <div className="person-img">
-                                                <img src="" alt="" />
+                                                <img
+                                                    src="https://hellloexpert.com/tf/html/lavelo/img/person/10.jpg"
+                                                    alt=""
+                                                />
                                                 <div className="social-list">
                                                     <ul>
                                                         <li>

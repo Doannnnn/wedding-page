@@ -1,6 +1,13 @@
 function Contact() {
     return (
-        <div id="contact" className="guest-area">
+        <div
+            id="contact"
+            className="guest-area"
+            style={{
+                background: `linear-gradient(rgba(100, 158, 147, 0.50), rgba(100, 158, 147, 0.50)), 
+                transparent url(https://hellloexpert.com/tf/html/lavelo/img/guest/1.jpg) center center / cover no-repeat fixed`,
+            }}
+        >
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8 offset-lg-2">
